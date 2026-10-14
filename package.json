@@ -1,0 +1,57 @@
+{
+  "name": "broken-roasts",
+  "version": "1.0.0",
+  "description": "Zero-dependency roast generator. Five flavours (savage, light, general, burn, funny) plus personalised roasts. No API keys, works offline.",
+  "keywords": [
+    "roast",
+    "roasts",
+    "roast-api",
+    "funny",
+    "burn",
+    "savage",
+    "random",
+    "generator",
+    "bot",
+    "discord",
+    "whatsapp",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "Akewushola Abdulbakri Temitope (brokenvzn) <akewusholaabdulbakri101@gmail.com>",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.mjs"
+    },
+    "./data": {
+      "require": "./lib/data.js",
+      "import": "./lib/data.mjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neaterry6/broken-roasts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neaterry6/broken-roasts/issues"
+  },
+  "homepage": "https://github.com/Neaterry6/broken-roasts#readme",
+  "sideEffects": false
+}
